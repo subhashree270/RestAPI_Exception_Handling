@@ -9,7 +9,7 @@ public class MsgRestController {
 	@GetMapping("/msg")
 	public String getMsg() {
 		int i=10/0;
-		return "Welcome To Spring Tool Suite...";
+		return "Welcome To Our Portal...";
 	}
 
 }
